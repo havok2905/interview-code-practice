@@ -2,6 +2,11 @@
 
 Monorepo for interview code practice in typescript and ruby.
 
+## Commands
+
+- `rspec ./src`: run ruby tests
+- `npm test`: run Typescript and ruby tests
+
 ## Versions
 
 **Node:** 18.13.0
