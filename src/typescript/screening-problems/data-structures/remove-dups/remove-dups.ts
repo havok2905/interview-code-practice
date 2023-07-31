@@ -6,7 +6,7 @@
  * How would you write this if a temporary buffer was not allowed?
  */
 
-import { LinkedList } from '../../shared/LinkedList';
+import { LinkedList } from '../shared/LinkedList';
 
 export const removeDups = (linkedList: LinkedList<number>): void  => {
   const lookupSet = new Set();

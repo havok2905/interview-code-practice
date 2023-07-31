@@ -14,7 +14,7 @@
  * - Moving two items to one stack and back reverses their order
  */
 
-import { Stack } from '../../shared/Stack';
+import { Stack } from '../shared/Stack';
 
 export const sortStack = (stack: Stack<number>): Stack<number> => {
   const tempStack = new Stack<number>();
