@@ -1,4 +1,4 @@
-import { LinkedList } from '../../shared/LinkedList';
+import { LinkedList } from '../shared/LinkedList';
 import { removeDups } from '../remove-dups/remove-dups';
 
 describe('removeDups', () => {

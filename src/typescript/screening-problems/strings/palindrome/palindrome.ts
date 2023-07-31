@@ -41,5 +41,5 @@ export const isPalindromePermutation = (str: string): boolean => {
     !lookup[item] ? lookup[item] = 1 : lookup[item]++;
   });
 
-  return Object.entries(lookup).filter(([_key, value]) => value === 1).length <= 1;
+  return Object.entries(lookup).filter(([_key, value]) => value % 2 === 1).length <= 1;
 };

@@ -1,5 +1,5 @@
 import { sortStack } from './sort-stack';
-import { Stack } from '../../shared/Stack';
+import { Stack } from '../shared/Stack';
 
 describe('sortStack', () => {
   it ('should sort stacks in ascending order; 0 - 9', () => {
